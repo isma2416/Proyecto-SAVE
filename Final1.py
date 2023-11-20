@@ -31,16 +31,6 @@ teclado = [
 
 
 
-
-
-
-
-
-
-
-
-
-
 # ------------------
 # Configura SPI para la pantalla ILI9341
 spi = SPI(1, baudrate=10000000, sck=Pin(18), mosi=Pin(23))
