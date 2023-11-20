@@ -22,6 +22,26 @@ teclado = [
     ['1', '2', '3'],
     ['4', '5', '6']
 ]
+# --------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ------------------
 # Configura SPI para la pantalla ILI9341
 spi = SPI(1, baudrate=10000000, sck=Pin(18), mosi=Pin(23))
 display = Display(spi, dc=Pin(4), cs=Pin(5), rst=Pin(17))
